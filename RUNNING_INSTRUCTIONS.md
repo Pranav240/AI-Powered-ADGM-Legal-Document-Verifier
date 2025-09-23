@@ -1,60 +1,56 @@
 How to Run the ADGM Corporate Document Checker Project
-Clone the repository
+Step 1: Clone the Repository
+Open your terminal and run:
 
-Open terminal and run:
+bash
+git clone https://github.com/Pranav240/AI-Powered-ADGM-Legal-Document-Verifier.git
+cd AI-Powered-ADGM-Legal-Document-Verifier
+Step 2: Create and Activate a Virtual Environment (Optional but Recommended)
+Using Conda:
 
-text
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Create and activate a virtual environment (Recommended)
-
-Using conda:
-
-text
+bash
 conda create -n adgm_env python=3.9 -y
 conda activate adgm_env
 Or using venv:
 
-text
+bash
 python -m venv venv
-source venv/bin/activate   # macOS/Linux
-.\venv\Scripts\activate    # Windows
-Install dependencies
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+.\venv\Scripts\activate
+Step 3: Install Dependencies
+Run the following command to install all required packages:
 
-text
+bash
 pip install -r requirements.txt
-Prepare the documents
+Step 4: Prepare Documents
+Add your .docx ADGM corporate documents to the sample_docs/ folder in the project root directory.
 
-Place your .docx ADGM corporate documents inside the folder named sample_docs/ in the project root.
+Step 5: Build the FAISS Vector Index
+Generate the vector index of documents for semantic search by running:
 
-Build the FAISS vector index
-
-Run the indexer to embed documents for semantic search:
-
-text
+bash
 python rag_indexer.py
-Watch for logs confirming successful embedding and index creation.
+Look for messages indicating the embeddings and index are successfully created.
 
-Start the Streamlit app
+Step 6: Launch the Streamlit App
+Start the web interface by running:
 
-Launch the web UI for uploading and checking documents:
-
-text
+bash
 streamlit run app.py
-This will open a browser window with the document checker interface.
+A browser window should open automatically displaying the document checker interface.
 
-Use the app
+Step 7: Using the App
+Upload your .docx corporate documents via the interface.
 
-Upload .docx corporate documents.
+View checklist statuses for uploaded and missing documents.
 
-View checklist status for uploaded and missing documents.
+Ask questions related to the uploaded documents using the AI-powered Q&A feature.
 
-Ask questions about your documents using the AI-powered Q&A.
+Additional Notes
+No external API keys are required; all embeddings run locally using Hugging Face models.
 
-Additional notes
+After adding, modifying, or removing documents, rerun Step 5 (python rag_indexer.py) to refresh the index.
 
-No API keys needed; embeddings run locally with Hugging Face.
-
-After adding or removing documents, rerun step 5 to update the search index.
-
-Ensure your virtual environment is activated when running scripts.
+Always ensure your virtual environment is active before running commands.
