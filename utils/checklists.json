@@ -1,0 +1,182 @@
+{
+  "document_types": {
+    "Articles of Association": [
+      "articles of association",
+      "aoa"
+    ],
+    "Memorandum of Association": [
+      "memorandum of association",
+      "moa"
+    ],
+    "Board Resolution": [
+      "board resolution",
+      "resolution of directors"
+    ],
+    "Shareholder Resolution": [
+      "shareholder resolution",
+      "resolution of shareholders"
+    ],
+    "UBO Declaration": [
+      "ubo declaration",
+      "ultimate beneficial owner"
+    ],
+    "Register of Members and Directors": [
+      "register of members",
+      "register of directors"
+    ],
+    "Change of Registered Address Notice": [
+      "change of registered address",
+      "address notice"
+    ],
+    "Incorporation Application Form": [
+      "incorporation application",
+      "application for incorporation",
+      "company incorporation form"
+    ],
+    "Resolution for Incorporation (LTD - Multiple Shareholders)": [
+      "resolution for incorporation",
+      "multiple shareholders incorporation resolution"
+    ],
+    "SPV Incorporation Form": [
+      "spv incorporation",
+      "special purpose vehicle incorporation"
+    ],
+    "LLC Incorporation Form": [
+      "llc incorporation",
+      "limited liability company incorporation"
+    ],
+    "Standard Employment Contract Template (2024)": [
+      "employment contract 2024",
+      "standard employment contract 2024"
+    ],
+    "Standard Employment Contract Template (2019)": [
+      "employment contract 2019",
+      "standard employment contract 2019"
+    ],
+    "Appropriate Policy Document": [
+      "appropriate policy document",
+      "data protection policy"
+    ],
+    "Annual Accounts & Filings": [
+      "annual accounts",
+      "annual filings"
+    ],
+    "Application for Official Letters & Permits": [
+      "application for official letters",
+      "letters and permits application"
+    ],
+    "Shareholder Resolution – Amendment of Articles": [
+      "amendment of articles",
+      "shareholder resolution amendment"
+    ],
+    "Licensing Regulatory Filing": [
+      "licensing filing",
+      "regulatory filing"
+    ],
+    "Employment HR Policy": [
+      "employment hr policy",
+      "hr policy document"
+    ],
+    "Commercial Agreement": [
+      "commercial agreement",
+      "commercial contract"
+    ],
+    "Compliance Risk Policy": [
+      "compliance risk policy",
+      "risk policy document"
+    ],
+    "Resolutions": [
+      "resolutions"
+    ],
+    "Shareholders)": [
+      "shareholders)"
+    ],
+    "Other Forms & Templates": [
+      "other forms & templates"
+    ],
+    "Policy Statements": [
+      "policy statements"
+    ],
+    "up (Various Entities)": [
+      "up (various entities)"
+    ],
+    "Company Limited": [
+      "company limited"
+    ],
+    "update)": [
+      "update)"
+    ],
+    "short version)": [
+      "short version)"
+    ],
+    "Document Template": [
+      "document template"
+    ],
+    "& Filings Annual Accounts & Filings": [
+      "& filings annual accounts & filings"
+    ],
+    "Letters & Permits": [
+      "letters & permits"
+    ],
+    "Filings, Templates": [
+      "filings, templates"
+    ],
+    "Amendment of Articles": [
+      "amendment of articles"
+    ],
+    "Incorporation, SPV, LLC,": [
+      "incorporation, spv, llc,"
+    ],
+    "Guidance, Templates,": [
+      "guidance, templates,"
+    ],
+    "Checklist – Private": [
+      "checklist – private"
+    ],
+    "portal.": [
+      "portal."
+    ]
+  },
+  "process_checklists": {
+    "Company Incorporation": [
+      "Articles of Association",
+      "Memorandum of Association",
+      "Board Resolution",
+      "UBO Declaration",
+      "Register of Members and Directors"
+    ],
+    "Employment Onboarding": [
+      "Standard Employment Contract Template (2024)",
+      "Employment HR Policy"
+    ],
+    "Data Protection Compliance": [
+      "Appropriate Policy Document"
+    ],
+    "Company": [
+      "Resolutions",
+      "Shareholders)",
+      "Incorporation, SPV, LLC,"
+    ],
+    "Policy Statements": [
+      "Guidance, Templates,"
+    ],
+    "Checklist – Company Set-": [
+      "up (Various Entities)"
+    ],
+    "Company Limited": [
+      "Checklist – Private"
+    ],
+    "Standard Employment": [
+      "update)",
+      "short version)"
+    ],
+    "Appropriate Policy": [
+      "Document Template",
+      "& Filings Annual Accounts & Filings",
+      "Letters & Permits",
+      "Filings, Templates",
+      "Amendment of Articles",
+      "portal."
+    ]
+  }
+}
